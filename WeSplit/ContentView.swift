@@ -52,7 +52,8 @@ struct ContentView: View {
                             Text($0, format: .percent)
                         }
                     }
-                    .pickerStyle(.segmented)
+                    .pickerStyle(.navigationLink)
+//                    .pickerStyle(.segmented)
                 }
                 
                 Section("Total Amount") {
